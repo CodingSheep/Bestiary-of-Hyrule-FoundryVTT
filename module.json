@@ -5,7 +5,7 @@
   "url": "https://github.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT",
   "manifest": "https://raw.githubusercontent.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT/main/module.json",
   "download": "https://github.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT/archive/refs/heads/main.zip",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "authors": [
     {
       "name": "Vorthas",
@@ -36,32 +36,33 @@
     "bestiary-of-hyrule-foundryvtt": {
       "pf2e-homebrew": {
         "creatureTraits": {
-	  "armos": "Armos",
-	  "chuchu": "Chuchu",
-	  "darknut": "Darknut",
-	  "deku-baba": "Deku Baba",
-	  "dodongo": "Dodongo",
-	  "garo": "Garo",
-	  "gekko": "Gekko",
-	  "gibdo": "Gibdo",
-	  "gleeok": "Gleeok",
-	  "gohma": "Gohma",
-	  "gibdo": "Gibdo",
-	  "poe": "Poe",
-	  "stal": "Stal",
-	  "wizzrobe": "Wizzrobe",
-	  "zazak": "Zazak"
-	},
+          "armos": "Armos",
+          "chuchu": "Chuchu",
+          "darknut": "Darknut",
+          "deku-baba": "Deku Baba",
+          "dodongo": "Dodongo",
+          "garo": "Garo",
+          "gekko": "Gekko",
+          "gibdo": "Gibdo",
+          "gleeok": "Gleeok",
+          "gohma": "Gohma",
+          "gibdo": "Gibdo",
+          "poe": "Poe",
+          "stal": "Stal",
+          "wizzrobe": "Wizzrobe",
+          "zazak": "Zazak"
+        },
         "featTraits": {
           "vulnerability": {
-	    "label": "Vulnerability",
-	    "description": "This trait indicates a specific vulnerability of a creature that may be triggered by targeting a specific location on the creature or by using a specific item or weapon."
-	  }
-	},
-	"languages": {
-	  "anook": "Anook",
-	  "twilit": "Twilit"
-	}
+            "label": "Vulnerability",
+            "description": "This trait indicates a specific vulnerability of a creature that may be triggered by targeting a specific location on the creature or by using a specific item or weapon."
+          }
+        },
+        "languages": {
+          "anook": "Anook",
+          "gekko": "Gekko",
+          "twilit": "Twilit"
+        }
       }
     }
   },
