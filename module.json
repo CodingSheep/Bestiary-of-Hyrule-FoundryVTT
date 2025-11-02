@@ -39,14 +39,28 @@
 	  "armos": "Armos",
 	  "chuchu": "Chuchu",
 	  "darknut": "Darknut",
+	  "deku-baba": "Deku Baba",
 	  "dodongo": "Dodongo",
+	  "garo": "Garo",
+	  "gekko": "Gekko",
 	  "gibdo": "Gibdo",
 	  "gleeok": "Gleeok",
 	  "gohma": "Gohma",
 	  "gibdo": "Gibdo",
 	  "poe": "Poe",
 	  "stal": "Stal",
-	  "wizzrobe": "Wizzrobe"
+	  "wizzrobe": "Wizzrobe",
+	  "zazak": "Zazak"
+	},
+        "featTraits": {
+          "vulnerability": {
+	    "label": "Vulnerability",
+	    "description": "This trait indicates a specific vulnerability of a creature that may be triggered by targeting a specific location on the creature or by using a specific item or weapon."
+	  }
+	},
+	"languages": {
+	  "anook": "Anook",
+	  "twilit": "Twilit"
 	}
       }
     }
