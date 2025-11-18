@@ -1,34 +1,15 @@
-2025/11/02-18:43:01.028088 ed6695e0f060 Recovering log #111
-2025/11/02-18:43:01.037900 ed6695e0f060 Level-0 table #114: started
-2025/11/02-18:43:01.049156 ed6695e0f060 Level-0 table #114: 773078 bytes OK
-2025/11/02-18:43:01.054552 ed6695e0f060 Delete type=0 #7
-2025/11/02-18:43:01.054691 ed6695e0f060 Delete type=2 #38
-2025/11/02-18:43:01.054713 ed6695e0f060 Delete type=0 #40
-2025/11/02-18:43:01.054725 ed6695e0f060 Delete type=0 #61
-2025/11/02-18:43:01.054829 ed6695e0f060 Delete type=2 #62
-2025/11/02-18:43:01.054857 ed6695e0f060 Delete type=2 #108
-2025/11/02-18:43:01.054951 ed6695e0f060 Delete type=2 #110
-2025/11/02-18:43:01.055008 ed6695e0f060 Delete type=0 #111
-2025/11/02-18:43:01.055121 ed6695e0f060 Delete type=3 #6
-2025/11/02-18:43:01.055135 ed6695e0f060 Delete type=3 #39
-2025/11/02-18:43:01.055147 ed6695e0f060 Delete type=3 #59
-2025/11/02-18:43:01.055186 ed6695e0f060 Delete type=3 #109
-2025/11/02-18:43:06.731112 ed668b60f060 Moved #114 to level-1 773078 bytes OK: files[ 0 1 1 0 0 0 0 ]
-2025/11/02-18:43:06.737921 ed668b60f060 Compacting 1@1 + 1@2 files
-2025/11/02-18:43:06.756583 ed668b60f060 Generated table #116@1: 1452 keys, 949749 bytes
-2025/11/02-18:43:06.756621 ed668b60f060 Compacted 1@1 + 1@2 files => 949749 bytes
-2025/11/02-18:43:06.758730 ed668b60f060 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/02-18:43:06.758903 ed668b60f060 Delete type=2 #112
-2025/11/02-18:43:06.759676 ed668b60f060 Delete type=2 #114
-2025/11/02-20:51:41.436283 ed668b60f060 Level-0 table #118: started
-2025/11/02-20:51:41.461824 ed668b60f060 Level-0 table #118: 1308006 bytes OK
-2025/11/02-20:51:41.466337 ed668b60f060 Delete type=0 #115
-2025/11/02-20:51:41.471115 ed668b60f060 Manual compaction at level-0 from '!actors!042k4ClLCmTlqNVR' @ 72057594037927935 : 1 .. '!folders!zEM9eHkFbDpSqGnE' @ 0 : 0; will stop at (end)
-2025/11/02-20:51:41.479791 ed668b60f060 Manual compaction at level-1 from '!actors!042k4ClLCmTlqNVR' @ 72057594037927935 : 1 .. '!folders!zEM9eHkFbDpSqGnE' @ 0 : 0; will stop at '!folders!rrIt1Vjoq1xbMq5D' @ 23055 : 1
-2025/11/02-20:51:41.479798 ed668b60f060 Compacting 1@1 + 1@2 files
-2025/11/02-20:51:41.512320 ed668b60f060 Generated table #119@1: 1635 keys, 1066524 bytes
-2025/11/02-20:51:41.512338 ed668b60f060 Compacted 1@1 + 1@2 files => 1066524 bytes
-2025/11/02-20:51:41.514310 ed668b60f060 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/02-20:51:41.514455 ed668b60f060 Delete type=2 #116
-2025/11/02-20:51:41.514936 ed668b60f060 Delete type=2 #118
-2025/11/02-20:51:41.519824 ed668b60f060 Manual compaction at level-1 from '!folders!rrIt1Vjoq1xbMq5D' @ 23055 : 1 .. '!folders!zEM9eHkFbDpSqGnE' @ 0 : 0; will stop at (end)
+2025/11/18-01:39:12.890804 e14d91e0f060 Recovering log #130
+2025/11/18-01:39:12.896400 e14d91e0f060 Delete type=3 #126
+2025/11/18-01:39:12.896519 e14d91e0f060 Delete type=0 #130
+2025/11/18-01:39:59.205357 e14d88e0f060 Level-0 table #136: started
+2025/11/18-01:39:59.207564 e14d88e0f060 Level-0 table #136: 2675 bytes OK
+2025/11/18-01:39:59.210056 e14d88e0f060 Delete type=0 #134
+2025/11/18-01:39:59.212913 e14d88e0f060 Manual compaction at level-0 from '!actors!042k4ClLCmTlqNVR' @ 72057594037927935 : 1 .. '!folders!zEM9eHkFbDpSqGnE' @ 0 : 0; will stop at (end)
+2025/11/18-01:39:59.215656 e14d88e0f060 Manual compaction at level-1 from '!actors!042k4ClLCmTlqNVR' @ 72057594037927935 : 1 .. '!folders!zEM9eHkFbDpSqGnE' @ 0 : 0; will stop at '!actors!wcCcxJ0wi7q6FhHY' @ 26120 : 1
+2025/11/18-01:39:59.215664 e14d88e0f060 Compacting 1@1 + 1@2 files
+2025/11/18-01:39:59.232645 e14d88e0f060 Generated table #137@1: 1848 keys, 1214794 bytes
+2025/11/18-01:39:59.232666 e14d88e0f060 Compacted 1@1 + 1@2 files => 1214794 bytes
+2025/11/18-01:39:59.234709 e14d88e0f060 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/11/18-01:39:59.234920 e14d88e0f060 Delete type=2 #132
+2025/11/18-01:39:59.235110 e14d88e0f060 Delete type=2 #136
+2025/11/18-01:39:59.237899 e14d88e0f060 Manual compaction at level-1 from '!actors!wcCcxJ0wi7q6FhHY' @ 26120 : 1 .. '!folders!zEM9eHkFbDpSqGnE' @ 0 : 0; will stop at (end)

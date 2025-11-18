@@ -5,7 +5,7 @@
   "url": "https://github.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT",
   "manifest": "https://raw.githubusercontent.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT/main/module.json",
   "download": "https://github.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT/archive/refs/heads/main.zip",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "authors": [
     {
       "name": "Vorthas",
@@ -60,7 +60,9 @@
         },
         "languages": {
           "anook": "Anook",
+          "garo": "Garo",
           "gekko": "Gekko",
+          "ikanan": "Ikanan",
           "twilit": "Twilit"
         }
       }
