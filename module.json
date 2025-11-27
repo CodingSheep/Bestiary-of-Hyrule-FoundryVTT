@@ -1,123 +1,124 @@
 {
-  "id": "bestiary-of-hyrule-foundryvtt",
-  "title": "Bestiary of Hyrule",
-  "description": "A Zelda campaign resource module for Pathfinder Second Edition containing monsters and npcs written by Vorthas.",
-  "url": "https://github.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT",
-  "manifest": "https://raw.githubusercontent.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT/main/module.json",
-  "download": "https://github.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT/archive/refs/heads/main.zip",
-  "version": "0.4.0",
-  "authors": [
-    {
-      "name": "Vorthas",
-      "flags": {}
-    }
-  ],
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  },
-  "relationships": {
-    "requires": [
-      {
-        "id": "paths-of-hyrule-foundryvtt",
-        "type": "module",
-        "compatibility": {}
-      }
-    ],
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
-  "flags": {
-    "bestiary-of-hyrule-foundryvtt": {
-      "pf2e-homebrew": {
-        "creatureTraits": {
-          "armos": "Armos",
-          "chuchu": "Chuchu",
-          "darknut": "Darknut",
-          "deku-baba": "Deku Baba",
-          "dodongo": "Dodongo",
-          "garo": "Garo",
-          "gekko": "Gekko",
-          "gibdo": "Gibdo",
-          "gleeok": "Gleeok",
-          "gohma": "Gohma",
-          "gibdo": "Gibdo",
-          "poe": "Poe",
-          "stal": "Stal",
-          "wizzrobe": "Wizzrobe",
-          "zazak": "Zazak"
-        },
-        "featTraits": {
-          "vulnerability": {
-            "label": "Vulnerability",
-            "description": "This trait indicates a specific vulnerability of a creature that may be triggered by targeting a specific location on the creature or by using a specific item or weapon."
-          }
-        },
-        "languages": {
-          "anook": "Anook",
-          "garo": "Garo",
-          "gekko": "Gekko",
-          "ikanan": "Ikanan",
-          "twilit": "Twilit"
+    "id": "bestiary-of-hyrule-foundryvtt",
+    "title": "Bestiary of Hyrule",
+    "description": "A Zelda campaign resource module for Pathfinder Second Edition containing monsters and npcs written by Vorthas.",
+    "url": "https://github.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT",
+    "manifest": "https://raw.githubusercontent.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT/main/module.json",
+    "download": "https://github.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT/archive/refs/heads/main.zip",
+    "version": "0.5.0",
+    "authors": [
+        {
+            "name": "Vorthas",
+            "flags": {}
         }
-      }
-    }
-  },
-  "packs": [
-    {
-      "name": "pf2e-bestiary-of-hyrule-monsters",
-      "label": "Hyrule Monster Core",
-      "path": "packs/pf2e-bestiary-of-hyrule-monsters",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+    ],
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
     },
-    {
-      "name": "pf2e-bestiary-of-hyrule-effects",
-      "label": "Hyrule Monster Core Effects",
-      "path": "packs/pf2e-bestiary-of-hyrule-effects",
-      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+    "relationships": {
+        "requires": [
+            {
+                "id": "paths-of-hyrule-foundryvtt",
+                "type": "module",
+                "compatibility": {}
+            }
+        ],
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
     },
-    {
-      "name": "pf2e-bestiary-of-hyrule-npcs",
-      "label": "Hyrule NPC Core",
-      "path": "packs/pf2e-bestiary-of-hyrule-npcs",
-      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
-      "type": "Actor",
-      "ownership": {
-        "PLAYER": "LIMITED",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "Bestiary of Hyrule",
-      "sorting": "a",
-      "packs": [
-        "pf2e-bestiary-of-hyrule-monsters",
-        "pf2e-bestiary-of-hyrule-effects",
-        "pf2e-bestiary-of-hyrule-npcs"
-      ]
-    }
-  ]
+    "flags": {
+        "bestiary-of-hyrule-foundryvtt": {
+            "pf2e-homebrew": {
+                "creatureTraits": {
+                    "armos": "Armos",
+                    "chuchu": "Chuchu",
+                    "darknut": "Darknut",
+                    "deku-baba": "Deku Baba",
+                    "dodongo": "Dodongo",
+                    "garo": "Garo",
+                    "gekko": "Gekko",
+                    "gibdo": "Gibdo",
+                    "gleeok": "Gleeok",
+                    "gohma": "Gohma",
+                    "gibdo": "Gibdo",
+                    "poe": "Poe",
+                    "stal": "Stal",
+                    "wizzrobe": "Wizzrobe",
+                    "zazak": "Zazak"
+                },
+                "featTraits": {
+                    "vulnerability": {
+                        "label": "Vulnerability",
+                        "description": "This trait indicates a specific vulnerability of a creature that may be triggered by targeting a specific location on the creature or by using a specific item or weapon."
+                    }
+                },
+                "languages": {
+                    "anook": "Anook",
+                    "garo": "Garo",
+                    "gekko": "Gekko",
+                    "ikanan": "Ikanan",
+                    "twilit": "Twilit",
+                    "wosu": "Wosu"
+                }
+            }
+        }
+    },
+    "packs": [
+        {
+            "name": "pf2e-bestiary-of-hyrule-monsters",
+            "label": "Hyrule Monster Core",
+            "path": "packs/pf2e-bestiary-of-hyrule-monsters",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "name": "pf2e-bestiary-of-hyrule-effects",
+            "label": "Hyrule Monster Core Effects",
+            "path": "packs/pf2e-bestiary-of-hyrule-effects",
+            "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        },
+        {
+            "name": "pf2e-bestiary-of-hyrule-npcs",
+            "label": "Hyrule NPC Core",
+            "path": "packs/pf2e-bestiary-of-hyrule-npcs",
+            "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "LIMITED",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "Bestiary of Hyrule",
+            "sorting": "a",
+            "packs": [
+                "pf2e-bestiary-of-hyrule-monsters",
+                "pf2e-bestiary-of-hyrule-effects",
+                "pf2e-bestiary-of-hyrule-npcs"
+            ]
+        }
+    ]
 }
