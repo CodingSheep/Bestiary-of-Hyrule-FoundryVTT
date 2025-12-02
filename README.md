@@ -14,8 +14,6 @@ A module implementation of Vorthas's *Bestiary of Hyrule*, which is intended to 
 - [People of Hyrule](https://scribe.pf2.tools/v/zW46FlVl-people-of-hyrule)
 - [Skyward Threats](https://scribe.pf2.tools/v/fByTSw8P-skyward-threats)
 
-Currently a WIP.
-
 The documents above have been condensed internally into the Hyrule Monster Core Compendium and the Hyrule NPC Core Compendium.
 
 # Requirements
