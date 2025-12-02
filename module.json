@@ -5,7 +5,7 @@
     "url": "https://github.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT",
     "manifest": "https://raw.githubusercontent.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT/main/module.json",
     "download": "https://github.com/CodingSheep/Bestiary-of-Hyrule-FoundryVTT/archive/refs/heads/main.zip",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Vorthas",

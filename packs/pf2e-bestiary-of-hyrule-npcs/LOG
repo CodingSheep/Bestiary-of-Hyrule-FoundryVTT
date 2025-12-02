@@ -1,15 +1,18 @@
-2025/11/27-00:39:56.989258 f8cd5800f060 Recovering log #107
-2025/11/27-00:39:56.994682 f8cd5800f060 Delete type=3 #100
-2025/11/27-00:39:56.994761 f8cd5800f060 Delete type=0 #107
-2025/11/27-00:42:17.741844 f8cd4f00f060 Level-0 table #114: started
-2025/11/27-00:42:17.744074 f8cd4f00f060 Level-0 table #114: 2106 bytes OK
-2025/11/27-00:42:17.746704 f8cd4f00f060 Delete type=0 #112
-2025/11/27-00:42:17.749638 f8cd4f00f060 Manual compaction at level-0 from '!actors!1iLlxDHbtOdEpeFa' @ 72057594037927935 : 1 .. '!folders!wcVpj4CCtVYqiGfX' @ 0 : 0; will stop at (end)
-2025/11/27-00:42:17.749771 f8cd4f00f060 Manual compaction at level-1 from '!actors!1iLlxDHbtOdEpeFa' @ 72057594037927935 : 1 .. '!folders!wcVpj4CCtVYqiGfX' @ 0 : 0; will stop at '!actors!ZGGP46OIbfAVWQ7q' @ 5280 : 1
-2025/11/27-00:42:17.749780 f8cd4f00f060 Compacting 1@1 + 1@2 files
-2025/11/27-00:42:17.756867 f8cd4f00f060 Generated table #115@1: 390 keys, 308834 bytes
-2025/11/27-00:42:17.756889 f8cd4f00f060 Compacted 1@1 + 1@2 files => 308834 bytes
-2025/11/27-00:42:17.758757 f8cd4f00f060 compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/11/27-00:42:17.758864 f8cd4f00f060 Delete type=2 #110
-2025/11/27-00:42:17.758977 f8cd4f00f060 Delete type=2 #114
-2025/11/27-00:42:17.765221 f8cd4f00f060 Manual compaction at level-1 from '!actors!ZGGP46OIbfAVWQ7q' @ 5280 : 1 .. '!folders!wcVpj4CCtVYqiGfX' @ 0 : 0; will stop at (end)
+2025/12/02-18:45:04.228436 e85c6f20f060 Recovering log #113
+2025/12/02-18:45:04.233947 e85c6f20f060 Delete type=0 #7
+2025/12/02-18:45:04.233996 e85c6f20f060 Delete type=0 #35
+2025/12/02-18:45:04.234014 e85c6f20f060 Delete type=0 #51
+2025/12/02-18:45:04.234032 e85c6f20f060 Delete type=0 #75
+2025/12/02-18:45:04.234080 e85c6f20f060 Delete type=0 #81
+2025/12/02-18:45:04.234103 e85c6f20f060 Delete type=0 #87
+2025/12/02-18:45:04.234123 e85c6f20f060 Delete type=2 #89
+2025/12/02-18:45:04.234139 e85c6f20f060 Delete type=0 #96
+2025/12/02-18:45:04.234153 e85c6f20f060 Delete type=0 #113
+2025/12/02-18:45:04.234164 e85c6f20f060 Delete type=3 #6
+2025/12/02-18:45:04.234182 e85c6f20f060 Delete type=3 #34
+2025/12/02-18:45:04.234197 e85c6f20f060 Delete type=3 #50
+2025/12/02-18:45:04.234211 e85c6f20f060 Delete type=3 #74
+2025/12/02-18:45:04.234225 e85c6f20f060 Delete type=3 #80
+2025/12/02-18:45:04.234239 e85c6f20f060 Delete type=3 #85
+2025/12/02-18:45:04.234253 e85c6f20f060 Delete type=3 #94
+2025/12/02-18:45:04.234294 e85c6f20f060 Delete type=3 #111
