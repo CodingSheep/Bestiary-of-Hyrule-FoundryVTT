@@ -7,7 +7,7 @@ A module implementation of Vorthas's *Bestiary of Hyrule*, which is intended to 
 The documents above have been condensed internally into the Hyrule Monster Core Compendium and the Hyrule NPC Core Compendium.
 
 # Requirements
-- Foundry V13+
+- Foundry V14+
 - PF2e System Version 7.12.2 or greater
 - Paths of Hyrule V2.1
 
