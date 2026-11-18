@@ -1,3 +1,24 @@
-2026/10/13-04:44:29.921722 7329d89fd6c0 Recovering log #332
-2026/10/13-04:44:29.927093 7329d89fd6c0 Delete type=3 #330
-2026/10/13-04:44:29.927139 7329d89fd6c0 Delete type=0 #332
+2026/11/18-02:20:38.959870 78d3737fe6c0 Recovering log #335
+2026/11/18-02:20:38.960120 78d3737fe6c0 Level-0 table #337: started
+2026/11/18-02:20:38.962376 78d3737fe6c0 Level-0 table #337: 4339 bytes OK
+2026/11/18-02:20:38.968015 78d3737fe6c0 Delete type=0 #335
+2026/11/18-02:20:38.968069 78d3737fe6c0 Delete type=3 #334
+2026/11/18-02:20:42.176629 78d358dff6c0 Moved #337 to level-1 4339 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2026/11/18-02:20:42.179129 78d358dff6c0 Compacting 1@1 + 1@2 files
+2026/11/18-02:20:42.202641 78d358dff6c0 Generated table #339@1: 1870 keys, 1226695 bytes
+2026/11/18-02:20:42.202653 78d358dff6c0 Compacted 1@1 + 1@2 files => 1226695 bytes
+2026/11/18-02:20:42.205119 78d358dff6c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/18-02:37:09.743791 78d358dff6c0 Level-0 table #341: started
+2026/11/18-02:37:09.746630 78d358dff6c0 Level-0 table #341: 44093 bytes OK
+2026/11/18-02:37:09.749392 78d358dff6c0 Delete type=2 #337
+2026/11/18-02:37:09.749465 78d358dff6c0 Delete type=0 #338
+2026/11/18-02:37:09.749609 78d358dff6c0 Delete type=2 #299
+2026/11/18-02:37:09.749799 78d358dff6c0 Manual compaction at level-0 from '!actors!042k4ClLCmTlqNVR' @ 72057594037927935 : 1 .. '!folders!zEM9eHkFbDpSqGnE' @ 0 : 0; will stop at (end)
+2026/11/18-02:37:09.749832 78d358dff6c0 Manual compaction at level-1 from '!actors!042k4ClLCmTlqNVR' @ 72057594037927935 : 1 .. '!folders!zEM9eHkFbDpSqGnE' @ 0 : 0; will stop at '!actors.items!CuIJOhRgndAOu4gl.UyZQmuGTwPimcu8j' @ 28648 : 1
+2026/11/18-02:37:09.749842 78d358dff6c0 Compacting 1@1 + 1@2 files
+2026/11/18-02:37:09.774977 78d358dff6c0 Generated table #342@1: 1870 keys, 1226716 bytes
+2026/11/18-02:37:09.774991 78d358dff6c0 Compacted 1@1 + 1@2 files => 1226716 bytes
+2026/11/18-02:37:09.777500 78d358dff6c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/18-02:37:09.777651 78d358dff6c0 Delete type=2 #339
+2026/11/18-02:37:09.777970 78d358dff6c0 Delete type=2 #341
+2026/11/18-02:37:09.787150 78d358dff6c0 Manual compaction at level-1 from '!actors.items!CuIJOhRgndAOu4gl.UyZQmuGTwPimcu8j' @ 28648 : 1 .. '!folders!zEM9eHkFbDpSqGnE' @ 0 : 0; will stop at (end)
